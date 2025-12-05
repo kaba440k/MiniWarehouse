@@ -30,7 +30,10 @@ DJANGO_APPS = [
 ADDED_APPS = [
     'products',
 ]
-INSTALLED_APPS = DJANGO_APPS + ADDED_APPS
+FRAMEWORKS = [
+    'rest_framework',
+]
+INSTALLED_APPS = DJANGO_APPS + ADDED_APPS + FRAMEWORKS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
