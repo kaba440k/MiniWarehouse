@@ -29,6 +29,9 @@ DJANGO_APPS = [
 ]
 ADDED_APPS = [
     'products',
+    'storage',
+    'inventory',
+    'transaction',
 ]
 FRAMEWORKS = [
     'rest_framework',
